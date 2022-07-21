@@ -1,0 +1,45 @@
+
+/*---------GLOBALES------------*/
+html {
+    font-size: 62.5%;
+
+}
+
+*{
+    scroll-behavior: smooth;
+}
+
+body a{
+    text-decoration: none;
+    color: white;
+}
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.6rem;
+
+}
+
+.global{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+/*-------NAVEGADOR------------*/
+
+
+.header_line{
+    display: flex;
+    flex-direction: row;
+}
+
+.header_line_nav{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: cornflowerblue;
+    padding:1% 0 1% 50%;
+}
